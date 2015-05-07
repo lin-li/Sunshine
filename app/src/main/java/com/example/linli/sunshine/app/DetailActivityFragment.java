@@ -27,4 +27,6 @@ public class DetailActivityFragment extends Fragment {
         textview.setText(forecast);
         return rootView;
     }
+
+
 }
