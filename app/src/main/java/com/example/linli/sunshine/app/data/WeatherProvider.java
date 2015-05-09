@@ -318,7 +318,9 @@ public class WeatherProvider extends ContentProvider {
             default:
                 throw new UnsupportedOperationException("Unknown uri: " + uri);
         }
-        getContext().getContentResolver().notifyChange(uri, null);
+        if (count > 0) {
+            getContext().getContentResolver().notifyChange(uri, null);
+        }
         return count;
     }
 
