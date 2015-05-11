@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Sunshine-Version-2-e8cfce170c04357093e4ca136ea8d88a818e8904.iml" filepath="$PROJECT_DIR$/Sunshine-Version-2-e8cfce170c04357093e4ca136ea8d88a818e8904.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunshine.iml" filepath="$PROJECT_DIR$/sunshine.iml" />
     </modules>
   </component>
 </project>
