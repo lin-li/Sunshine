@@ -1,5 +1,5 @@
 Then, type in the following command into your SSH Terminal:
-  `git clone [PASTE YOUR LINK HERE]`
+   `git clone`
 
 Now you should have a **mean_adsk** folder in the folder structure, which is located on the left-hand side of the container. If you don't see it, you need to right-click the the container and click **refresh**. 
 
