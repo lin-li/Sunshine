@@ -16,3 +16,6 @@ Then run the following commands: (Note: you may get an error, don't worry)
    `git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done`
    
    `git fetch --all`
+
+In your config file, set the current working directory to point to your newly created `mean_adsk` directory:  
+   `"cwd": "~/workspace/mean_adsk"` 
