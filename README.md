@@ -15,4 +15,5 @@ Within the terminal, navigate to the mean_adsk folder by entering the following 
 Then run the following commands: (Note: you may get an error, don't worry)
  
    `git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done`
+   
    `git fetch --all`
